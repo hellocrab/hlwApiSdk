@@ -1,5 +1,5 @@
 <services>
-    <!-- 安全培训系统 agk start-->
+    <!-- 慧猎网考试培训系统 agk start-->
     <service>
         <phpclass>com\hlw\ks\interfaces\UserServiceClient</phpclass>
         <url value="http://ks.api.php.huiliewang.com/UserService">
@@ -248,36 +248,6 @@
 			
         </url>
     </service>
-    <!-- 安全培训系统 agk end -->
-    
-    <!-- 个人中心 ucenter start-->
-    <service>
-        <phpclass>com\gdl\ucenter\interfaces\UserServiceClient</phpclass>
-        <url value="http://uc.api.php.gandianli.com/UserService">
-            <method>user</method>
-            <method>getUserInfoById</method>
-            <method>getUserInfoByidcard</method>
-            <method>getAllUserByDepartmentid</method>
-        </url>
-    </service>
-    <service>
-        <phpclass>com\gdl\ucenter\interfaces\ActionServiceClient</phpclass>
-        <url value="http://uc.api.php.gandianli.com/ActionService">
-            <method>login</method>
-            <method>registerUser</method>
-            <method>editUcUser</method>
-            <method>editUcPassword</method>
-            <method>passwordVerify</method>
-            <method>approve</method>
-        </url>
-    </service>
-    <service>
-        <phpclass>com\gdl\ucenter\interfaces\SsoServiceClient</phpclass>
-        <url value="http://uc.api.php.gandianli.com/SsoService">
-            <method>checkSsoInfo</method>
-            <method>setSsoInfo</method>
-        </url>
-    </service>
-    <!-- 个人中心 ucenter end-->
+    <!-- 慧猎网考试培训系统 hlw end -->
 </services>
 

@@ -1,4 +1,4 @@
-namespace * com.gdl.common.dataobject.common
+namespace * com.hlw.common.dataobject.common
 
 struct ResultDO {
     1: bool success,
