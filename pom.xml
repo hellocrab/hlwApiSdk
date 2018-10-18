@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.gdl</groupId>
-	<artifactId>gdlApiSdk</artifactId>
+	<groupId>com.hlw</groupId>
+	<artifactId>hlwApiSdk</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>sdk</name>
 	<url>http://maven.apache.org</url>
@@ -19,7 +19,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>gdlApiSdk</finalName>
+		<finalName>hlwApiSdk</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-clean-plugin</artifactId>
