@@ -249,5 +249,12 @@
         </url>
     </service>
     <!-- 慧猎网考试培训系统 hlw end -->
+    <service>
+        <phpclass>com\hlw\ks\interfaces\TestServiceClient</phpclass>
+        <url value="http://ks.api.php.huiliewang.com/TestService">
+            <method>test</method>
+			
+        </url>
+    </service>
 </services>
 
