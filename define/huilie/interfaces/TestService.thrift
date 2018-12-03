@@ -1,4 +1,4 @@
-namespace * com.hlw.ks.interfaces
+namespace * com.hlw.huilie.interfaces
 
 include "../../common/dataobject/common.thrift"
 
