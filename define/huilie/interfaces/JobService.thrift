@@ -1,8 +1,10 @@
 namespace * com.hlw.huilie.interfaces
 
+include "../dataobject/job/job.thrift"
 include "../../common/dataobject/common.thrift"
+
 
 service JobService
 {
-    string addJob(1:string test),
+    common.ResultDO addJob(1:job.AddJobRequestDTO addJobDo),
 }
