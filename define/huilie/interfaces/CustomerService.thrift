@@ -6,5 +6,5 @@ include "../../common/dataobject/common.thrift"
 
 service CustomerService
 {
-    common.ResultDO addCustomer(1:customer.AddCustomerRequestDTO addCustomerDo),
+    common.ResultDO saveCustomer(1:customer.CustomerRequestDTO CustomerDo),
 }

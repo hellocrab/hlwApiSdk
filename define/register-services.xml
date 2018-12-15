@@ -268,7 +268,7 @@
     <service>
         <phpclass>com\hlw\huilie\interfaces\CustomerServiceClient</phpclass>
         <url value="http://hlw.api.php.huiliewang.com/CustomerService">
-            <method>addCustomer</method>
+            <method>saveCustomer</method>
         </url>
     </service>
     <!-- 慧猎网数据 hlw end -->

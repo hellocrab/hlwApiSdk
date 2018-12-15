@@ -1,7 +1,7 @@
 namespace * com.hlw.huilie.dataobject.customer
 
 
-struct AddCustomerRequestDTO 
+struct CustomerRequestDTO 
 {
     1: string name,#企业全称
     2: string address, #公司地址
