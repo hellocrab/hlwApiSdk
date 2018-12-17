@@ -6,5 +6,5 @@ include "../../common/dataobject/common.thrift"
 
 service JobService
 {
-    common.ResultDO addJob(1:job.AddJobRequestDTO addJobDo),
+    common.ResultDO saveJob(1:job.JobRequestDTO saveJobDo),
 }

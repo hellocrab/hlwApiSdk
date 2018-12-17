@@ -19,4 +19,7 @@ struct CustomerRequestDTO
     14: string linkmail,#联系人email
     15: string website,#公司网站
     16: string busstops,#公交车站
+    17: string hy, #从事行业
+    18: string mun, #企业规模
+    
 }
