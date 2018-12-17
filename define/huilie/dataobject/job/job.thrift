@@ -12,8 +12,7 @@ struct JobRequestDTO
     7:i32 detail_subordinate,#下属人数
     8:i32 number,#招聘人数
     9:string hy, #从事行业
-    10:string exp_min,#工作经验低
-    11:string exp_max,#工作经验高
+    10:string exp,#工作经验
     12:string report,#到岗时间
     13:string edate,#结束时间
     14:string age,#年龄要求
