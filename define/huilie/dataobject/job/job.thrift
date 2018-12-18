@@ -19,5 +19,10 @@ struct JobRequestDTO
     15:string sex,#性别要求
     16:string edu,#教育程度
     17:string language, #语言要求
-    18:string marriage#婚姻状态
+    18:string marriage,#婚姻状态
+    19:i32 uid,#用户
+    20:string sdate,#开始时间
+    21:string com_name,#公司名称
+    22:string mode, #模式;新增-修改
+    23:i32 job_id
 }
