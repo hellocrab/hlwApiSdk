@@ -272,5 +272,14 @@
         </url>
     </service>
     <!-- 慧猎网数据 hlw end -->
+	
+	    <!-- 慧猎网前台数据 hlw start -->
+    <service>
+        <phpclass>com\hlw\huiliewang\interfaces\JobHuilieServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/JobHuilieService">
+            <method>saveJobResumes</method>
+        </url>
+    </service>
+    <!-- 慧猎网前台数据 hlw end -->
 </services>
 
