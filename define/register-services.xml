@@ -250,11 +250,36 @@
     </service>
     <!-- 慧猎网考试培训系统 hlw end -->
     <service>
-        <phpclass>com\hlw\uc\interfaces\TestServiceClient</phpclass>
+        <phpclass>com\hlw\huilie\interfaces\TestServiceClient</phpclass>
         <url value="http://hlw.api.php.huiliewang.com/TestService">
             <method>test</method>
 			
         </url>
     </service>
+    
+    <!-- 慧猎网数据 hlw start -->
+    <service>
+        <phpclass>com\hlw\huilie\interfaces\JobServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/JobService">
+            <method>saveJob</method>
+        </url>
+    </service>
+    
+    <service>
+        <phpclass>com\hlw\huilie\interfaces\CustomerServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/CustomerService">
+            <method>saveCustomer</method>
+        </url>
+    </service>
+    <!-- 慧猎网数据 hlw end -->
+	
+	    <!-- 慧猎网前台数据 hlw start -->
+    <service>
+        <phpclass>com\hlw\huiliewang\interfaces\JobHuilieServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/JobHuilieService">
+            <method>saveJobResumes</method>
+        </url>
+    </service>
+    <!-- 慧猎网前台数据 hlw end -->
 </services>
 
