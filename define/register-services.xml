@@ -271,6 +271,16 @@
             <method>saveCustomer</method>
         </url>
     </service>
+
+    <!-- 客户信息查看 -->
+    <service>
+        <phpclass>com\hlw\huiliewang\interfaces\ContactInfoServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/ContactsScanService">
+            <method>isScan</method>
+            <method>scan</method>
+        </url>
+    </service>
+
     <!-- 慧猎网数据 hlw end -->
 	
 	    <!-- 慧猎网前台数据 hlw start -->
