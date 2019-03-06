@@ -250,53 +250,24 @@
     </service>
     <!-- 慧猎网考试培训系统 hlw end -->
     <service>
-        <phpclass>com\hlw\huilie\interfaces\TestServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/TestService">
+        <phpclass>com\hlw\ks\interfaces\TestServiceClient</phpclass>
+        <url value="http://ks.api.php.huiliewang.com/TestService">
             <method>test</method>
-			
         </url>
     </service>
-    
-    <!-- 慧猎网数据 hlw start -->
+    <!-- 第一类 -->
     <service>
-        <phpclass>com\hlw\huilie\interfaces\JobServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/JobService">
-            <method>saveJob</method>
+        <phpclass>com\hlw\ks\insterface\MytestServiceClient</phpclass>
+        <url value="http://ks.api.php.huiliewang.com/MyTestService">
+            <method>getTestDemo</method>
         </url>
     </service>
-    
+<!-- 第二类测试 -->
     <service>
-        <phpclass>com\hlw\huilie\interfaces\CustomerServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/CustomerService">
-            <method>saveCustomer</method>
-        </url>
-    </service>
-
-    <!-- 客户信息查看 -->
-    <service>
-        <phpclass>com\hlw\huiliewang\interfaces\ContactInfoServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/ContactsScanService">
-            <method>isScan</method>
-            <method>scan</method>
-        </url>
-    </service>
-
-    <!-- 慧猎网数据 hlw end -->
-	
-	    <!-- 慧猎网前台数据 hlw start -->
-    <service>
-        <phpclass>com\hlw\huiliewang\interfaces\JobHuilieServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/JobHuilieService">
-            <method>saveJobResumes</method>
-        </url>
-    </service>
-    <!-- 慧猎网前台数据 hlw end -->
-
-    <!-- 慧猎网话费查询 -->
-    <service>
-        <phpclass>com\hlw\huiliewang\interfaces\BalanceServiceClient</phpclass>
-        <url value="http://hlw.api.php.huiliewang.com/BalanceService">
-            <method>getBalance</method>
+        <phpclass>com\hlw\ks\insterface\TestInstanceServiceClient</phpclass>
+        <url value="http://ks.api.php.huiliewang.com/TestInstanceService">
+            <method>getDemo</method>
+            <method>getCommon</method>
         </url>
     </service>
 </services>
