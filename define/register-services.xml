@@ -299,5 +299,13 @@
             <method>getBalance</method>
         </url>
     </service>
+    <!-- 慧猎网CC项目状态 -->
+    <service>
+        <phpclass>com\hlw\huiliewang\interfaces\BusinessServiceClient</phpclass>
+        <url value="http://hlw.api.php.huiliewang.com/BusinessService">
+            <method>getCCArray</method>
+            <method>searchCallist</method>
+        </url>
+    </service>
 </services>
 
